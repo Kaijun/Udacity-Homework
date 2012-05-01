@@ -1,0 +1,9 @@
+application: demonbane-homework
+version: 1a
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: homework.app
